@@ -1,4 +1,4 @@
-*{ color: white;/**/
+*{ color: white;
     transition: 0.2s ease-in-out;
     user-select: none;
 }
@@ -8,7 +8,7 @@
     align-items: center;
 }
 body{
-    background-color: #192965;/*rgb(26, 70, 78),#3D3B40*/
+    background-color: #192965;
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -23,7 +23,6 @@ body{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     position: relative;
-    /*grid-column-gap: 10px;*/
 }
 
 .turn-container h3{
@@ -36,7 +35,6 @@ body{
     font-size: 1.6rem;
     font-weight: 700;
 }
-/*box border for x and 0 in turn container section*/
 .turn-container .turn-box:nth-child(even){
     border-right: none;
 }
@@ -46,7 +44,7 @@ body{
     left: 0;
     width: 85px;
     height: 40px;
-    background-color: #BBCFFF;/*bisque,#525CEB*/
+    background-color: #BBCFFF;
     z-index: -1;
 }
 .main-grid{
@@ -56,19 +54,19 @@ body{
     height: 250px;
     width: 250px;
     margin: 30px auto;
-    border: 2px solid black;/**/
+    border: 2px solid black;
 }
 .box{
     cursor: pointer;
     font-size: 2rem;
     font-weight: 700;
-    border: 2px solid black;/**/
+    border: 2px solid black;
 }
 .box:hover{
-    background-color: #BBCFFF;/*#f61d53,#BFCFE7*/
+    background-color: #BBCFFF;
 }
 #play-again{
-    background-color:#BBCFFF;/*#f61d53,#525CEB*/  /*#F0EFEF*/
+    background-color:#BBCFFF;
     padding: 10px 25px;
     font-size: 1.2rem;
     border: none;
@@ -79,6 +77,6 @@ body{
 
 #play-again:hover{
     padding: 10px 40px;
-    background-color: #FAAFFF;/*aqua, #F8EDFF*/
-    color: black;/**/
+    background-color: #FAAFFF;
+    color: black;
 }
